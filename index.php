@@ -39,32 +39,34 @@
     <title></title>
   </head>
   <body>
-    <!-- header -->
-    <header>
-      <div class="container">
-        <img class="google-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
-        <a class="privacy-and-terms" href="#" onclick="return false">Privacy e termini</a>
-      </div>
-    </header>
-
-    <!-- nav  -->
-    <nav>
-      <div class="container">
-        <div class="nav-left">
-          <ul>
-            <li><a href="#" onclick="return false">Introduzione</a></li>
-            <li><a href="#" onclick="return false">Norme sulla privacy</a></li>
-            <li><a href="#" onclick="return false">Termini di servizio</a></li>
-            <li><a href="#" onclick="return false">Tecnologie</a></li>
-            <li><a href="#" onclick="return false">Domande frequenti</a></li>
-          </ul>
+    <div class="fixed">
+      <!-- header -->
+      <header>
+        <div class="container">
+          <img class="google-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+          <a class="privacy-and-terms" href="#" onclick="return false">Privacy e termini</a>
         </div>
-        <div class="nav-right">
-          <a class="google-account" href="#" onclick="return false">Account Google</a>
-        </div>
-      </div>
-    </nav>
+      </header>
 
+      <!-- nav  -->
+      <nav>
+        <div class="container">
+          <div class="nav-left">
+            <ul>
+              <li><a href="#" onclick="return false">Introduzione</a></li>
+              <li><a href="#" onclick="return false">Norme sulla privacy</a></li>
+              <li><a href="#" onclick="return false">Termini di servizio</a></li>
+              <li><a href="#" onclick="return false">Tecnologie</a></li>
+              <li><a href="#" onclick="return false">Domande frequenti</a></li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <a class="google-account" href="#" onclick="return false">Account Google</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+      
     <!-- sezione contenente domande e risposte -->
     <section>
       <div class="small-container">
